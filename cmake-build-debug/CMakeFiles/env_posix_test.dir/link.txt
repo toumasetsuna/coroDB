@@ -1,0 +1,1 @@
+/usr/bin/c++  -fno-exceptions -g -O3 -g CMakeFiles/env_posix_test.dir/util/testutil.cc.o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -o env_posix_test  -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring libleveldb.a lib/libgmock.a lib/libgtest.a -lsnappy -ltcmalloc -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring 

@@ -1,0 +1,1759 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Linux - 6.8.7-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_66eef/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_66eef.dir/build.make CMakeFiles/cmTC_66eef.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j'
+        Building C object CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66eef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cc6DVXlL.s
+        GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/'
+         as -v --64 -o CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o /tmp/cc6DVXlL.s
+        GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_66eef
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66eef.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -o cmTC_66eef 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66eef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66eef.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWGCWqk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66eef /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66eef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66eef.'
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_66eef/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_66eef.dir/build.make CMakeFiles/cmTC_66eef.dir/build]
+        ignore line: [make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4ys4j']
+        ignore line: [Building C object CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66eef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cc6DVXlL.s]
+        ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o /tmp/cc6DVXlL.s]
+        ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_66eef]
+        ignore line: [/opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66eef.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -o cmTC_66eef ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66eef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66eef.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWGCWqk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66eef /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWGCWqk.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_66eef] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
+          arg [CMakeFiles/cmTC_66eef.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5178b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5178b.dir/build.make CMakeFiles/cmTC_5178b.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK'
+        Building CXX object CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5178b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccNGwnLm.s
+        GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNGwnLm.s
+        GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5178b
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5178b.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5178b 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5178b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5178b.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCMcvKA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5178b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5178b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5178b.'
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1] ==> [/usr/include/c++/13.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/13.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward] ==> [/usr/include/c++/13.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13.2.1;/usr/include/c++/13.2.1/x86_64-pc-linux-gnu;/usr/include/c++/13.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5178b/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_5178b.dir/build.make CMakeFiles/cmTC_5178b.dir/build]
+        ignore line: [make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SRefAK']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5178b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccNGwnLm.s]
+        ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNGwnLm.s]
+        ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5178b]
+        ignore line: [/opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5178b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5178b ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5178b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5178b.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCMcvKA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5178b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccCMcvKA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5178b] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
+          arg [CMakeFiles/cmTC_5178b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e2d2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5e2d2.dir/build.make CMakeFiles/cmTC_5e2d2.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee'
+        Building C object CMakeFiles/cmTC_5e2d2.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_5e2d2.dir/CheckIncludeFile.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee/CheckIncludeFile.c
+        Linking C executable cmTC_5e2d2
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2d2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5e2d2.dir/CheckIncludeFile.c.o -o cmTC_5e2d2 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-swQCee'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:41 (check_library_exists)"
+    checks:
+      - "Looking for crc32c_value in crc32c"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_CRC32C"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_62c47/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_62c47.dir/build.make CMakeFiles/cmTC_62c47.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1'
+        Building C object CMakeFiles/cmTC_62c47.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_62c47.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1/CheckFunctionExists.c
+        Linking C executable cmTC_62c47
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c47.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_62c47.dir/CheckFunctionExists.c.o -o cmTC_62c47  -lcrc32c 
+        /usr/bin/ld: cannot find -lcrc32c: No such file or directory
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_62c47.dir/build.make:99: cmTC_62c47] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qhhzt1'
+        make: *** [Makefile:127: cmTC_62c47/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:42 (check_library_exists)"
+    checks:
+      - "Looking for snappy_compress in snappy"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SNAPPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82400/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_82400.dir/build.make CMakeFiles/cmTC_82400.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP'
+        Building C object CMakeFiles/cmTC_82400.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_82400.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP/CheckFunctionExists.c
+        Linking C executable cmTC_82400
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82400.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress CMakeFiles/cmTC_82400.dir/CheckFunctionExists.c.o -o cmTC_82400  -lsnappy 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9rEtcP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:43 (check_library_exists)"
+    checks:
+      - "Looking for zstd_compress in zstd"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_ZSTD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6a5d2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6a5d2.dir/build.make CMakeFiles/cmTC_6a5d2.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf'
+        Building C object CMakeFiles/cmTC_6a5d2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=zstd_compress -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6a5d2.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf/CheckFunctionExists.c
+        Linking C executable cmTC_6a5d2
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a5d2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=zstd_compress CMakeFiles/cmTC_6a5d2.dir/CheckFunctionExists.c.o -o cmTC_6a5d2  -lzstd 
+        /usr/bin/ld: CMakeFiles/cmTC_6a5d2.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `zstd_compress'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_6a5d2.dir/build.make:99: cmTC_6a5d2] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OHJnOf'
+        make: *** [Makefile:127: cmTC_6a5d2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:44 (check_library_exists)"
+    checks:
+      - "Looking for malloc in tcmalloc"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_TCMALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0d84b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0d84b.dir/build.make CMakeFiles/cmTC_0d84b.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4'
+        Building C object CMakeFiles/cmTC_0d84b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_0d84b.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4/CheckFunctionExists.c
+        \x1b[01m\x1b[K<command-line>:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconflicting types for built-in function ‘\x1b[01m\x1b[Kmalloc\x1b[m\x1b[K’; expected ‘\x1b[01m\x1b[Kvoid *(long unsigned int)\x1b[m\x1b[K’ [\x1b[01;35m\x1b[K-Wbuiltin-declaration-mismatch\x1b[m\x1b[K]
+        \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4/CheckFunctionExists.c:7:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro ‘\x1b[01m\x1b[KCHECK_FUNCTION_EXISTS\x1b[m\x1b[K’
+            7 |   \x1b[01;36m\x1b[KCHECK_FUNCTION_EXISTS\x1b[m\x1b[K(void);
+              |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4/CheckFunctionExists.c:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K‘\x1b[01m\x1b[Kmalloc\x1b[m\x1b[K’ is declared in header ‘\x1b[01m\x1b[K<stdlib.h>\x1b[m\x1b[K’
+          +++ |+\x1b[32m\x1b[K#include <stdlib.h>\x1b[m\x1b[K
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_0d84b
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d84b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_0d84b.dir/CheckFunctionExists.c.o -o cmTC_0d84b  -ltcmalloc 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BxcQT4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:52 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for fdatasync"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_FDATASYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_75cf1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_75cf1.dir/build.make CMakeFiles/cmTC_75cf1.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV'
+        Building CXX object CMakeFiles/cmTC_75cf1.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_75cf1.dir/CheckSymbolExists.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_75cf1
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75cf1.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_75cf1.dir/CheckSymbolExists.cxx.o -o cmTC_75cf1 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RB8UnV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:53 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for F_FULLFSYNC"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_FULLFSYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec49a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ec49a.dir/build.make CMakeFiles/cmTC_ec49a.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm'
+        Building CXX object CMakeFiles/cmTC_ec49a.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_ec49a.dir/CheckSymbolExists.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm/CheckSymbolExists.cxx
+        \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm/CheckSymbolExists.cxx:\x1b[m\x1b[K In function ‘\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K’:
+        \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm/CheckSymbolExists.cxx:8:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K‘\x1b[01m\x1b[KF_FULLFSYNC\x1b[m\x1b[K’ was not declared in this scope
+            8 |   return ((int*)(&\x1b[01;31m\x1b[KF_FULLFSYNC\x1b[m\x1b[K))[argc];
+              |                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_ec49a.dir/build.make:78: CMakeFiles/cmTC_ec49a.dir/CheckSymbolExists.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIZ8rm'
+        make: *** [Makefile:127: cmTC_ec49a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:54 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for O_CLOEXEC"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_O_CLOEXEC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f547/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4f547.dir/build.make CMakeFiles/cmTC_4f547.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU'
+        Building CXX object CMakeFiles/cmTC_4f547.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_4f547.dir/CheckSymbolExists.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_4f547
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f547.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4f547.dir/CheckSymbolExists.cxx.o -o cmTC_4f547 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oqy8mU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CLANG_THREAD_SAFETY"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_CLANG_THREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4092/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c4092.dir/build.make CMakeFiles/cmTC_c4092.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF'
+        Building CXX object CMakeFiles/cmTC_c4092.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CLANG_THREAD_SAFETY  -fno-exceptions  -std=c++20 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_c4092.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF/src.cxx
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-Wthread-safety\x1b[m\x1b[K'
+        make[1]: *** [CMakeFiles/cmTC_c4092.dir/build.make:78: CMakeFiles/cmTC_c4092.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-omPoqF'
+        make: *** [Makefile:127: cmTC_c4092/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:86 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ddd8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7ddd8.dir/build.make CMakeFiles/cmTC_7ddd8.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G'
+        Building CXX object CMakeFiles/cmTC_7ddd8.dir/src.cxx.o
+        /usr/bin/c++ -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS  -fno-exceptions  -std=c++20 -fdiagnostics-color=always   -Wno-missing-field-initializers -o CMakeFiles/cmTC_7ddd8.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G/src.cxx
+        Linking CXX executable cmTC_7ddd8
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ddd8.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  CMakeFiles/cmTC_7ddd8.dir/src.cxx.o -o cmTC_7ddd8 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-riRi2G'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:92 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CXX17_HAS_INCLUDE"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_CXX17_HAS_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c12d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2c12d.dir/build.make CMakeFiles/cmTC_2c12d.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU'
+        Building CXX object CMakeFiles/cmTC_2c12d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX17_HAS_INCLUDE  -fno-exceptions  -std=c++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_2c12d.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU/src.cxx
+        Linking CXX executable cmTC_2c12d
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c12d.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  CMakeFiles/cmTC_2c12d.dir/src.cxx.o -o cmTC_2c12d 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DTYkKU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:291 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a97f4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a97f4.dir/build.make CMakeFiles/cmTC_a97f4.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD'
+        Building C object CMakeFiles/cmTC_a97f4.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wstrict-prototypes  -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_a97f4.dir/src.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD/src.c
+        Linking C executable cmTC_a97f4
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a97f4.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wstrict-prototypes  CMakeFiles/cmTC_a97f4.dir/src.c.o -o cmTC_a97f4 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H4fScD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "third_party/benchmark/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4368/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d4368.dir/build.make CMakeFiles/cmTC_d4368.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT'
+        Building C object CMakeFiles/cmTC_d4368.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_d4368.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT/CheckFunctionExists.c
+        Linking C executable cmTC_d4368
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4368.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_d4368.dir/CheckFunctionExists.c.o -o cmTC_d4368  -lrt 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P3GSQT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbed8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bbed8.dir/build.make CMakeFiles/cmTC_bbed8.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3'
+        Building CXX object CMakeFiles/cmTC_bbed8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -fno-exceptions  -Wall -std=c++11 -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_bbed8.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3/src.cxx
+        Linking CXX executable cmTC_bbed8
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbed8.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall CMakeFiles/cmTC_bbed8.dir/src.cxx.o -o cmTC_bbed8 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FM4FR3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bab6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5bab6.dir/build.make CMakeFiles/cmTC_5bab6.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx'
+        Building CXX object CMakeFiles/cmTC_5bab6.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -fno-exceptions  -Wall  -Wextra -std=c++11 -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_5bab6.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx/src.cxx
+        Linking CXX executable cmTC_5bab6
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bab6.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra CMakeFiles/cmTC_5bab6.dir/src.cxx.o -o cmTC_5bab6 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EcNdwx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93dcb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_93dcb.dir/build.make CMakeFiles/cmTC_93dcb.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD'
+        Building CXX object CMakeFiles/cmTC_93dcb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -fno-exceptions  -Wall  -Wextra  -Wshadow -std=c++11 -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_93dcb.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD/src.cxx
+        Linking CXX executable cmTC_93dcb
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93dcb.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_93dcb.dir/src.cxx.o -o cmTC_93dcb 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3a29BD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb8a4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cb8a4.dir/build.make CMakeFiles/cmTC_cb8a4.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO'
+        Building CXX object CMakeFiles/cmTC_cb8a4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -fdiagnostics-color=always   -Wfloat-equal -o CMakeFiles/cmTC_cb8a4.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO/src.cxx
+        Linking CXX executable cmTC_cb8a4
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb8a4.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_cb8a4.dir/src.cxx.o -o cmTC_cb8a4 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RUm6IO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:179 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c83a6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c83a6.dir/build.make CMakeFiles/cmTC_c83a6.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL'
+        Building CXX object CMakeFiles/cmTC_c83a6.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -std=c++11 -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_c83a6.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL/src.cxx
+        Linking CXX executable cmTC_c83a6
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c83a6.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_c83a6.dir/src.cxx.o -o cmTC_c83a6 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7OQcaL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:183 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8ee3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b8ee3.dir/build.make CMakeFiles/cmTC_b8ee3.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e'
+        Building CXX object CMakeFiles/cmTC_b8ee3.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -std=c++11 -fdiagnostics-color=always   -Wsuggest-override -o CMakeFiles/cmTC_b8ee3.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e/src.cxx
+        Linking CXX executable cmTC_b8ee3
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ee3.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override CMakeFiles/cmTC_b8ee3.dir/src.cxx.o -o cmTC_b8ee3 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cg5K3e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:185 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a48c4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a48c4.dir/build.make CMakeFiles/cmTC_a48c4.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6'
+        Building CXX object CMakeFiles/cmTC_a48c4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -std=c++11 -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_a48c4.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6/src.cxx
+        Linking CXX executable cmTC_a48c4
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a48c4.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_a48c4.dir/src.cxx.o -o cmTC_a48c4 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3BB0l6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_15a5f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_15a5f.dir/build.make CMakeFiles/cmTC_15a5f.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb'
+        Building CXX object CMakeFiles/cmTC_15a5f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11 -fdiagnostics-color=always   -pedantic-errors -o CMakeFiles/cmTC_15a5f.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb/src.cxx
+        Linking CXX executable cmTC_15a5f
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15a5f.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_15a5f.dir/src.cxx.o -o cmTC_15a5f 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zOU6Tb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ca1f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1ca1f.dir/build.make CMakeFiles/cmTC_1ca1f.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm'
+        Building CXX object CMakeFiles/cmTC_1ca1f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_1ca1f.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm/src.cxx
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-Wshorten-64-to-32\x1b[m\x1b[K'
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-Wshorten-64-to-32\x1b[m\x1b[K'
+        make[1]: *** [CMakeFiles/cmTC_1ca1f.dir/build.make:78: CMakeFiles/cmTC_1ca1f.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vzXsFm'
+        make: *** [Makefile:127: cmTC_1ca1f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8d41/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a8d41.dir/build.make CMakeFiles/cmTC_a8d41.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk'
+        Building CXX object CMakeFiles/cmTC_a8d41.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11 -fdiagnostics-color=always   -fstrict-aliasing -o CMakeFiles/cmTC_a8d41.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk/src.cxx
+        Linking CXX executable cmTC_a8d41
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8d41.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_a8d41.dir/src.cxx.o -o cmTC_a8d41 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HFCgWk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:191 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73150/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_73150.dir/build.make CMakeFiles/cmTC_73150.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM'
+        Building CXX object CMakeFiles/cmTC_73150.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -fdiagnostics-color=always   -Wno-deprecated-declarations -o CMakeFiles/cmTC_73150.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM/src.cxx
+        Linking CXX executable cmTC_73150
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73150.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_73150.dir/src.cxx.o -o cmTC_73150 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U4i6LM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40827/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_40827.dir/build.make CMakeFiles/cmTC_40827.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa'
+        Building CXX object CMakeFiles/cmTC_40827.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -fdiagnostics-color=always   -Wno-deprecated -o CMakeFiles/cmTC_40827.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa/src.cxx
+        Linking CXX executable cmTC_40827
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40827.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_40827.dir/src.cxx.o -o cmTC_40827 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kIJGKa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:203 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FNO_EXCEPTIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8529/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f8529.dir/build.make CMakeFiles/cmTC_f8529.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe'
+        Building CXX object CMakeFiles/cmTC_f8529.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -std=c++11 -fdiagnostics-color=always   -fno-exceptions -o CMakeFiles/cmTC_f8529.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe/src.cxx
+        Linking CXX executable cmTC_f8529
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8529.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions CMakeFiles/cmTC_f8529.dir/src.cxx.o -o cmTC_f8529 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZMkZKe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa59b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fa59b.dir/build.make CMakeFiles/cmTC_fa59b.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN'
+        Building CXX object CMakeFiles/cmTC_fa59b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -std=c++11 -fdiagnostics-color=always   -Wstrict-aliasing -o CMakeFiles/cmTC_fa59b.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN/src.cxx
+        Linking CXX executable cmTC_fa59b
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa59b.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing CMakeFiles/cmTC_fa59b.dir/src.cxx.o -o cmTC_fa59b 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-quxiYN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:213 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52d39/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_52d39.dir/build.make CMakeFiles/cmTC_52d39.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C'
+        Building CXX object CMakeFiles/cmTC_52d39.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -wd654 -std=c++11 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_52d39.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C/src.cxx
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-wd654\x1b[m\x1b[K'
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-wd654\x1b[m\x1b[K'
+        make[1]: *** [CMakeFiles/cmTC_52d39.dir/build.make:78: CMakeFiles/cmTC_52d39.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YGiG1C'
+        make: *** [Makefile:127: cmTC_52d39/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:214 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb90b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cb90b.dir/build.make CMakeFiles/cmTC_cb90b.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr'
+        Building CXX object CMakeFiles/cmTC_cb90b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -std=c++11 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_cb90b.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr/src.cxx
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-Wthread-safety\x1b[m\x1b[K'
+        \x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-Wthread-safety\x1b[m\x1b[K'
+        make[1]: *** [CMakeFiles/cmTC_cb90b.dir/build.make:78: CMakeFiles/cmTC_cb90b.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VsUhsr'
+        make: *** [Makefile:127: cmTC_cb90b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:265 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3e289/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3e289.dir/build.make CMakeFiles/cmTC_3e289.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI'
+        Building CXX object CMakeFiles/cmTC_3e289.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  --coverage -std=c++11 -fdiagnostics-color=always   --coverage -o CMakeFiles/cmTC_3e289.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI/src.cxx
+        Linking CXX executable cmTC_3e289
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e289.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_3e289.dir/src.cxx.o -o cmTC_3e289 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fwRpZI'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:294 (cxx_feature_check)"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d50c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4d50c.dir/build.make CMakeFiles/cmTC_4d50c.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_4d50c.dir/std_regex.cpp.o
+        /usr/bin/c++   -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_4d50c.dir/std_regex.cpp.o -c /home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/std_regex.cpp
+        Linking CXX executable cmTC_4d50c
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d50c.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  CMakeFiles/cmTC_4d50c.dir/std_regex.cpp.o -o cmTC_4d50c 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:295 (cxx_feature_check)"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f2f4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7f2f4.dir/build.make CMakeFiles/cmTC_7f2f4.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7f2f4.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_7f2f4.dir/gnu_posix_regex.cpp.o -c /home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/gnu_posix_regex.cpp
+        \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/gnu_posix_regex.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgnuregex.h: No such file or directory
+            1 | #include \x1b[01;31m\x1b[K<gnuregex.h>\x1b[m\x1b[K
+              |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_7f2f4.dir/build.make:78: CMakeFiles/cmTC_7f2f4.dir/gnu_posix_regex.cpp.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_7f2f4/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:296 (cxx_feature_check)"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57b63/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_57b63.dir/build.make CMakeFiles/cmTC_57b63.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_57b63.dir/posix_regex.cpp.o
+        /usr/bin/c++   -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_57b63.dir/posix_regex.cpp.o -c /home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_57b63
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57b63.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  CMakeFiles/cmTC_57b63.dir/posix_regex.cpp.o -o cmTC_57b63 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:305 (cxx_feature_check)"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e636f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e636f.dir/build.make CMakeFiles/cmTC_e636f.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e636f.dir/steady_clock.cpp.o
+        /usr/bin/c++   -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_e636f.dir/steady_clock.cpp.o -c /home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_e636f
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e636f.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  CMakeFiles/cmTC_e636f.dir/steady_clock.cpp.o -o cmTC_e636f 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:309 (cxx_feature_check)"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/Modules;/home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4338/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c4338.dir/build.make CMakeFiles/cmTC_c4338.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_c4338.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_c4338.dir/pthread_affinity.cpp.o -c /home/setsuna/coro_leveldb/leveldb/third_party/benchmark/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_c4338
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4338.dir/link.txt --verbose=1
+        /usr/bin/c++  -fno-exceptions  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  CMakeFiles/cmTC_c4338.dir/pthread_affinity.cpp.o -o cmTC_c4338 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:450 (check_library_exists)"
+    checks:
+      - "Looking for sqlite3_open in sqlite3"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SQLITE3"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_21dd1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_21dd1.dir/build.make CMakeFiles/cmTC_21dd1.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa'
+        Building C object CMakeFiles/cmTC_21dd1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_21dd1.dir/CheckFunctionExists.c.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa/CheckFunctionExists.c
+        Linking C executable cmTC_21dd1
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21dd1.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open CMakeFiles/cmTC_21dd1.dir/CheckFunctionExists.c.o -o cmTC_21dd1  -lsqlite3 
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7yGFa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:461 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_KYOTOCABINET"
+    directories:
+      source: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1"
+      binary: "/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O2 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_KYOTOCABINET"
+      cached: true
+      stdout: |
+        Change Dir: '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_adfb0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_adfb0.dir/build.make CMakeFiles/cmTC_adfb0.dir/build
+        make[1]: Entering directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1'
+        Building CXX object CMakeFiles/cmTC_adfb0.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_KYOTOCABINET  -fno-exceptions  -std=c++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_adfb0.dir/src.cxx.o -c /home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1/src.cxx
+        In file included from \x1b[01m\x1b[K/usr/include/kcpolydb.h:20\x1b[m\x1b[K,
+                         from \x1b[01m\x1b[K/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1/src.cxx:2\x1b[m\x1b[K:
+        \x1b[01m\x1b[K/usr/include/kcutil.h:\x1b[m\x1b[K In function ‘\x1b[01m\x1b[Kvoid* kyotocabinet::\x1b[01;32m\x1b[Kxmalloc\x1b[m\x1b[K(size_t)\x1b[m\x1b[K’:
+        \x1b[01m\x1b[K/usr/include/kcutil.h:2866:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexception handling disabled, use ‘\x1b[01m\x1b[K-fexceptions\x1b[m\x1b[K’ to enable
+         2866 |   if (!ptr) throw std::bad_alloc(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;
+              |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_adfb0.dir/build.make:78: CMakeFiles/cmTC_adfb0.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/setsuna/coro_leveldb/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j11Kd1'
+        make: *** [Makefile:127: cmTC_adfb0/fast] Error 2
+        
+      exitCode: 2
+...

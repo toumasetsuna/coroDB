@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fno-exceptions CMakeFiles/c_test.dir/util/testutil.cc.o CMakeFiles/c_test.dir/db/c_test.c.o -o c_test  -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring libleveldb.a third_party/googletest/googlemock/libgmock.a third_party/googletest/googletest/libgtest.a -lsnappy -ltcmalloc -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring

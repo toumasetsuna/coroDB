@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fno-exceptions CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -o leveldbutil  -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring libleveldb.a -lnuma -lpthread -pthread -lrt -lglog -lgflags -laio -frtti -luring -lsnappy -ltcmalloc
